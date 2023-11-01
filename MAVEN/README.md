@@ -36,8 +36,10 @@
 
 # 6. Goals:
 
-    Maven has various build goals like clean, compile, test, package, and more. You can execute these goals using the mvn command.
+    Maven has various build goals like clean, compile, test, package, and more. 
+       You can execute these goals using the mvn command.
 
 # 7. Build Lifecycle:
 
-    Maven follows a build lifecycle that includes phases like validate, compile, test, package, install, and deploy. Each phase is a sequence of goals.
+    Maven follows a build lifecycle that includes phases like validate, compile, test, package,
+       install, and deploy. Each phase is a sequence of goals.
