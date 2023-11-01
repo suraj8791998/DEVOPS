@@ -63,8 +63,8 @@ pipeline {
     }
     stage('Deployment to Staging Environment') {
       steps {
-        sh 'ansible-playbook deploy-staging.yml'  // Example playbook to deploy the application
-    }
+        sh 'ansible-playbook deploy-staging.yml'  
+        }
    }
       stage('Notification and Reporting') {
     steps {
