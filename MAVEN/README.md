@@ -21,15 +21,18 @@
 
 # 3. POM (Project Object Model):
 
-    Maven projects are defined by a pom.xml file, which specifies project information, dependencies, and build configurations. You can create a pom.xml file manually or generate it using Maven archetypes.
+    Maven projects are defined by a pom.xml file, which specifies project information, dependencies, 
+        and build configurations. You can create a pom.xml file manually or generate it using Maven archetypes.
 
 # 4. Dependencies:
 
-    Define project dependencies in the dependencies section of the pom.xml file. Maven will automatically download and manage these dependencies from central repositories.
+    Define project dependencies in the dependencies section of the pom.xml file. Maven will automatically 
+         download and manage these dependencies from central repositories.
 
 # 5. Plugins:
 
-    Maven uses plugins to perform various build tasks. Common plugins include the maven-compiler-plugin for compiling source code and the maven-surefire-plugin for running tests.
+    Maven uses plugins to perform various build tasks. Common plugins include the maven-compiler-plugin for 
+       compiling source code and the maven-surefire-plugin for running tests.
 
 # 6. Goals:
 
