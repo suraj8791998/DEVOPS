@@ -73,9 +73,9 @@ pipeline {
                 subject: 'CI/CD Pipeline Notification',
                 to: 'mulaveesalav@gmail.com',
                 from: 'sender@example.com'
-        }
-    }
-}
+         }
+      }
+   }
 
  }
 }
