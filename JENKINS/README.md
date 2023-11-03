@@ -28,20 +28,27 @@ sudo apt update
 
 sudo apt install openjdk-8-jdk -y
 
-# Set up SSH Key Authentication:
-Since you didn't create a key pair when launching the EC2 instances, you'll need to create an SSH key pair and distribute the public key to the slave instances for passwordless authentication.
+# Steps to Establish password-less authentication
 
-a. On the Jenkins master instance, generate an SSH key pair:
+sudo apt update -y  **Jenkins server**
 
-ssh-keygen
+sudo apt install ansible -y  **Jenkins server**
 
-This will generate a private key (usually ~/.ssh/id_rsa) and a public key (usually ~/.ssh/id_rsa.pub).
+ssh-keygen **Jenkins server**
 
-b. Copy the public key to each Jenkins slave instance:
+Go to the above path as mentioned in above and go for cat ID_RSA_PUB
 
-ssh-copy-id ubuntu@slave-instance-ip
+Copy the content
 
-Replace ubuntu with the appropriate username if you're using a different AMI, and replace slave-instance-ip with the public IP or DNS of the slave instance. You'll be prompted to enter the password for the user on the slave instance.
+Login to Target Server
+
+ssh-keygen **Target Server**
+
+Go to the above path as mentioned in above and go for Authorized keys
+
+Paste the content that you have copied above
+
+ssh @private_ip_address for the authentication **Jenkins server**
 
 # Configure Jenkins for Master-Slave Communication:
 
