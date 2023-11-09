@@ -36,6 +36,27 @@
         
 **6.Viewing File Contents:**
      
-     Use cat to display the entire contents of a file. 
+     Use cat/more to display the entire contents of a file. 
      
-        Example: cat TextFile.txt.
+        Example: cat TextFile.txt./more TextFile.txt
+
+     Differences between Cat and More :
+
+       > Cat and more commands in linux are both used for viewing file contents, but they have distinct functionalities
+
+       > cat useful for small files and display the entire content of a file at once
+
+       > more useful for large files without overhelming the terminal
+
+     Head :
+     
+        > Displays the first 10 lines of a file
+
+        > Useful for quickly previewing the beginning of a file
+
+     Tail :
+
+        > Display the last 10 lines of a file
+
+        > Useful for checking the end of log files
+        
