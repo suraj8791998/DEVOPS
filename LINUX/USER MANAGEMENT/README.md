@@ -31,4 +31,46 @@
    Adjust user properties with the usermod command.
       
       usermod -options username
-  Remember to replace "username" and "groupname" with actual values.
+      
+**7.Grant Sudo Privileges:**
+   
+   Adds a user to the sudo group, granting administrative privileges.
+   
+        usermod -aG sudo username
+**8.View User Information:**
+   
+   Displays information about a user, including user and group IDs.
+   
+        id username
+**9.Change User's Home Directory:**
+
+   Moves a user's home directory.
+
+        usermod -d /path/to/new/directory username
+**10.Lock/Unlock User Account:**
+
+   Locks a user account.
+
+        passwd -l username  
+   
+   Unlocks a previously locked user account.
+   
+        passwd -u username
+**11.Force User to Change Password:**
+
+   Forces a user to change their password on next login.
+
+        chage -d 0 username
+
+**12.Set Password Expiry:**
+
+   Sets the maximum number of days between password changes.
+   
+        chage -M days username
+        
+**13.Delete User and Home Directory:**
+
+Removes a user along with their home directory.
+
+        userdel -r username
+
