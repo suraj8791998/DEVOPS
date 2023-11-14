@@ -31,11 +31,11 @@ echo "Hello, User!"
     #!/bin/bash
 
  Taking user input
-echo "Enter your name:"
-read user_name
+   echo "Enter your name:"
+  read user_name
 
- Displaying personalized greeting
-echo "Hello, $user_name! Welcome to the shell scripting world."
+    Displaying personalized greeting
+    echo "Hello, $user_name! Welcome to the shell scripting world."
 
 
 
