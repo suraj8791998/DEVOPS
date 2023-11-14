@@ -23,6 +23,20 @@ echo "Hello, User!"
          my_var="Shell Scripting is fun!"
 
    Printing the variable's value -   echo $my_var
+   
+# Input and Output:
+
+    Accepting user input and displaying output are crucial. You can use read to get input and echo to print output.
+
+    #!/bin/bash
+
+ Taking user input
+echo "Enter your name:"
+read user_name
+
+ Displaying personalized greeting
+echo "Hello, $user_name! Welcome to the shell scripting world."
+
 
 
 
