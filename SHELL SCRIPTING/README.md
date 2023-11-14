@@ -22,7 +22,7 @@ echo "Hello, User!"
     # Variable assignment
          my_var="Shell Scripting is fun!"
 
-   ** Printing the variable's value**   echo $my_var
+   Printing the variable's value -   echo $my_var
 
 
 
