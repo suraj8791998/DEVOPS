@@ -20,10 +20,9 @@ echo "Hello, User!"
     You can create and use variables in your script like this:
 
     # Variable assignment
-my_var="Shell Scripting is fun!"
+         my_var="Shell Scripting is fun!"
 
-   # Printing the variable's value
-  echo $my_var
+   ** Printing the variable's value**   echo $my_var
 
 
 
