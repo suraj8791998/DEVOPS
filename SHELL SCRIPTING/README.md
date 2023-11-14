@@ -37,7 +37,51 @@ echo "Hello, User!"
     Displaying personalized greeting
     echo "Hello, $user_name! Welcome to the shell scripting world."
 
+# Conditional Statements:
 
+    Use if, else, and elif to make decisions in your script based on conditions.
+
+    #!/bin/bash
+
+  Checking if a number is even or odd
+    echo "Enter a number:"
+     read num
+   if [ $((num % 2)) -eq 0 ]; then
+     echo "$num is even."
+   else
+     echo "$num is odd."
+   fi
+
+# Loops:
+
+    Loops, such as for and while, help in iterating through lists of items or until a condition is met
+
+      #!/bin/bash
+
+       Printing numbers from 1 to 5 using a for loop
+           echo "Numbers from 1 to 5:"
+            for i in {1..5}; do
+               echo $i
+           done
+
+# Functions:
+
+    Functions allow you to group code into reusable blocks.
+
+      #!/bin/bash
+
+       Function to calculate the square of a number
+         calculate_square() {
+           local num=$1
+           echo $((num * num))
+           }
+
+   Using the function
+     echo "Enter a number:"
+         read input_num
+
+      result=$(calculate_square $input_num)
+      echo "The square of $input_num is: $result"
 
 
 
