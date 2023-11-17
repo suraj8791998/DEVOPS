@@ -47,7 +47,8 @@
         git push -u origin master
 
 #    Collaboration:
-        Learn to collaborate with others using Git. Understand concepts like forking, pull requests, and code reviews on platforms like GitHub.
+        Learn to collaborate with others using Git. Understand concepts like forking, pull requests, and code 
+         reviews on platforms like GitHub.
         Contribute to open source projects to gain practical experience.
 
  #   Advanced Git Topics:
